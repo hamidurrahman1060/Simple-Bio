@@ -1,0 +1,110 @@
+*{margin: 0; padding: 0}
+
+
+h2{
+    color: blue;
+    font-size: 50px;
+    text-align: center;
+}
+.nav{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+}
+.nav ul{ 
+    list-style-type: none;
+}
+.nav ul li{
+    border: 1px solid white;
+    float: left;
+}
+.nav ul li a{
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    color: white;
+    display: block;
+
+}
+.nav ul li a:hover, 
+.nav ul li a.active{
+    background-color: darkblue;
+}
+.profileImage {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.information, .contact {
+    display: flex;
+    justify-content: center;
+}
+.information table{
+    width: 60%;
+    font-size: 40px;
+    
+}
+caption{
+    color: blue;
+    padding: 15px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+table th, table td{
+    text-align: left;
+    padding: 10px 15px;
+}
+.footer{
+    margin-top: 100px;
+    height: 70px;
+    width: 100%;
+    background-color: blue;
+}
+
+
+.educations{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.educations table{
+    width: 80%;
+    border-collapse: collapse;
+}
+.educations table th, .educations table td{
+    font-size: 35px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.educations table th{
+    font-weight: bold;
+    background-color: beige;
+}
+
+.contact table{
+    font-size: 35px;
+    color: black;
+}
+.contact table tr td a{
+    text-decoration: none;    
+}
+.ambition{
+    display: flex;
+    justify-content: center;
+}
+.ambition p{
+    padding-top: 20px;
+    width: 80%;
+    font-size: 15px;
+    text-align: justify;
+    
+}
+
+
+
+
+
+
